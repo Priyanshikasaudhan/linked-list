@@ -1,0 +1,97 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "allInOne",
+            "request": "launch",
+            "mainClass": "allInOne",
+            "projectName": "linked list_fa321e63"
+        },
+        {
+            "name": "Java",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ]
+        },
+        {
+            "name": "Java Console App",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ],
+            "externalConsole": true
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "basicll",
+            "request": "launch",
+            "mainClass": "basicll",
+            "projectName": "linked list_fa321e63"
+        },
+        {
+            "type": "java",
+            "name": "basicpractice",
+            "request": "launch",
+            "mainClass": "basicpractice",
+            "projectName": "linked list_fa321e63"
+        },
+        {
+            "type": "java",
+            "name": "creatnode",
+            "request": "launch",
+            "mainClass": "creatnode",
+            "projectName": "linked list_fa321e63"
+        },
+        {
+            "type": "java",
+            "name": "insertAtEnd",
+            "request": "launch",
+            "mainClass": "insertAtEnd",
+            "projectName": "linked list_fa321e63"
+        },
+        {
+            "type": "java",
+            "name": "lengthll",
+            "request": "launch",
+            "mainClass": "lengthll",
+            "projectName": "linked list_fa321e63"
+        },
+        {
+            "type": "java",
+            "name": "practice",
+            "request": "launch",
+            "mainClass": "practice",
+            "projectName": "linked list_fa321e63"
+        },
+        {
+            "type": "java",
+            "name": "printlist",
+            "request": "launch",
+            "mainClass": "printlist",
+            "projectName": "linked list_fa321e63"
+        }
+    ]
+}

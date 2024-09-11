@@ -1,4 +1,14 @@
 public class printlist {
+    public static void insertAtEnd(Node head, int val){
+        Node temp = new Node(val);
+        Node t = head;
+        while (t.next != null) {
+            t=t.next;
+        }
+        t.next = temp;
+    }
+
+
     //Recursion
     public static void displayr(Node head){
         if(head == null) return ;
@@ -44,5 +54,7 @@ public class printlist {
         display(a);
         System.out.println();
         displayrevrse(a);
+        insertAtEnd(a, 47);
+        display(a);
     }
 }
