@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "removeNthEnd",
+            "request": "launch",
+            "mainClass": "removeNthEnd",
+            "projectName": "linked list_fa321e63"
+        },
+        {
+            "type": "java",
+            "name": "nthonetervers",
+            "request": "launch",
+            "mainClass": "nthonetervers",
+            "projectName": "linked list_fa321e63"
+        },
+        {
+            "type": "java",
+            "name": "nthNode",
+            "request": "launch",
+            "mainClass": "nthNode",
+            "projectName": "linked list_fa321e63"
+        },
+        {
+            "type": "java",
             "name": "allInOne",
             "request": "launch",
             "mainClass": "allInOne",
