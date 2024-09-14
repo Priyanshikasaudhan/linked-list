@@ -5,11 +5,15 @@ public class removeNthEnd {
         for(int i=1;i<=n;i++){
             fast = fast.next;
         }
+        if(fast == head){
+            head = null;
+            return head;
+        }
         if (fast == null) {
             head = head.next;
             return head;
         }
-        while (fast.next != null) {
+        while (fast.next != null && fast.next != null) {
             slow = slow.next;
             fast = fast.next;
         }
@@ -51,6 +55,8 @@ public class removeNthEnd {
         a = daleteNthEndRemove(a, 7);
         display(a);
         a =  daleteNthEndRemove(a, 4);
+        display(a);
+        a =  daleteNthEndRemove(a, 5  );
         display(a);
     }
 }
