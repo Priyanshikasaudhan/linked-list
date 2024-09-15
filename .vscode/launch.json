@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "subarray",
+            "request": "launch",
+            "mainClass": "subarray",
+            "projectName": "linked list_fa321e63"
+        },
+        {
+            "type": "java",
+            "name": "StringPratice",
+            "request": "launch",
+            "mainClass": "StringPratice",
+            "projectName": "linked list_fa321e63"
+        },
+        {
+            "type": "java",
             "name": "removeNthEnd",
             "request": "launch",
             "mainClass": "removeNthEnd",
