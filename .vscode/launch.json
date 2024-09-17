@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "middleElement",
+            "request": "launch",
+            "mainClass": "middleElement",
+            "projectName": "linked list_fa321e63"
+        },
+        {
+            "type": "java",
             "name": "subarray",
             "request": "launch",
             "mainClass": "subarray",
