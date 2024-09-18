@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "reverselist",
+            "request": "launch",
+            "mainClass": "reverselist",
+            "projectName": "linked list_fa321e63"
+        },
+        {
+            "type": "java",
             "name": "middleElement",
             "request": "launch",
             "mainClass": "middleElement",

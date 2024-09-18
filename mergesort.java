@@ -9,7 +9,7 @@ public class mergesort {
     public static Node megreSortList(Node List1,Node List2){
         Node t1 = List1;
         Node t2= List2;
-        Node h = new Node(0);
+        // Node h = new Node(0);
         Node t = h;
         while (t1!=null && t2!=null) {
             if (t1.val<t2.val) {
