@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "first",
+            "request": "launch",
+            "mainClass": "first",
+            "projectName": "linked list_cc68647a"
+        },
+        {
+            "type": "java",
             "name": "reverselist",
             "request": "launch",
             "mainClass": "reverselist",
